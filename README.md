@@ -1,1 +1,3 @@
-# proyecto-pagina-personal-precurso
+# MI PAGINA PERSONAL
+
+Proyecto para precurso aplicando conocimientos adquiridos en HTML y CSS
