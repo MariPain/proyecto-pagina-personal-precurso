@@ -10,69 +10,89 @@
 
 <body>
     <header>
-        <nav class="menu">
-            <ul>
-                <li>
-                    <a href="index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="biografia.html">Biografia</a>
-                </li>
-                <li>
-                    <a href="contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="wrapper">
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html ">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="biografia.html ">Biografia</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html ">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section class="contact">
-            <ul>
-                <li><img src="/img/icons/phone-50.png" alt="telefono de contacto">617035237</li>
-                <li><img src="img/icons/mail-50.png" alt="e-mail">mariola.pedraza@gmail.com</li>
-                <li><img src="img/icons/telegram-app-50.png" alt="Telegram">617035237</li>
-                <li><img src="img/icons/location-50.png" alt="Telegram">Madrid, Spain</li>
 
-            </ul>
-        </section>
-        <form action="" method="POST">
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" name="name">
-            <label for="phone">Telefono:</label>
-            <input type="tel" id="phone" name="phone">
-            <label for="email">e-mail:</label>
-            <input type="mail" id="lname" name="mail">
-            <label for="message">Mensaje:</label><br>
-            <textarea name="message" rows="10" cols="30">Lo que me quieras contar</textarea>
-            <label for="send"></label>
-            <input type="submit">
-        </form>
+    <main>
+        <div class="wrapper flex-container">
+            <section class="contact-me">
+                <ul>
+                    <li class="contact-icon"><img src="/img/icons/phone-50.png" alt="telefono de contacto">617035237</li>
+                    <li class="contact-icon"><img src="img/icons/mail-50.png" alt="e-mail">mariola.pedraza@gmail.com</li>
+                    <li class="contact-icon"><img src="img/icons/telegram-app-50.png" alt="Telegram">617035237</li>
+                    <li class="contact-icon"><img src="img/icons/location-50.png" alt="Telegram">Madrid, Spain</li>
+                </ul>
+            </section>
+            <section class="contact">
+                <form action="" method="POST">
+                    <ul class="flex-form">
+                        <li>
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name">
+                        </li>
+                        <li> <label for="phone">Telefono:</label>
+                            <input type="tel" id="phone" name="phone">
+                        </li>
+                        <li>
+
+                            <label for="email">e-mail:</label>
+                            <input type="mail" id="lname" name="mail">
+                        </li>
+                        <li>
+
+                            <label for="message">Mensaje:</label><br>
+                            <textarea name="message" rows="10" cols="30">Lo que me quieras contar</textarea>
+                        </li>
+                        <li>
+                            <button type="submit">Enviar</button>
+                        </li>
+                    </ul>
+                </form>
+            </section>
+        </div>
     </main>
 
     <footer>
-        <section class="rrss">
-            <ul>
-                <li>
-                    <a href="https://github.com/maripain" target="_blank"><img src="./img/icons/octocat-50-b.png" alt="github"></a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/mariola-pedraza-8a981338/" target="_blank"><img src=" img/icons/linkedin-50-b.png " alt="linkedin "></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/maripain " target="_blank"><img src="img/icons/twitter-50-b.png " alt="twitter "></a>
-                </li>
-                <li>
-                    <a href="https://instagram.com/maripain " target="_blank"><img src="img/icons/iinstagram-50-b.png" alt="instagram"></a>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <p>Aviso legal</p>
-            <p>Politica de cookies</p>
-        </section>
-
-        <h6>Esta pagina web ha sido creada mientras amamantaba a mellizos</h6>
-        <h6>Todos los derechos reservados &copywww.mariolapedrazafullstack.com</h6>
+        <div class="wrapper">
+            <section class="rrss">
+                <ul>
+                    <li>
+                        <a href="https://github.com/maripain" target="_blank"><img src="./img/icons/octocat-50-b.png" alt="github"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/mariola-pedraza-8a981338/" target="_blank"><img src=" img/icons/linkedin-50-b.png " alt="linkedin "></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/maripain " target="_blank"><img src="img/icons/twitter-50-b.png " alt="twitter "></a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/maripain " target="_blank"><img src="img/icons/iinstagram-50-b.png" alt="instagram"></a>
+                    </li>
+                </ul>
+            </section>
+            <section classs="legal">
+                <p>Aviso legal</p>
+                <p>Politica de cookies</p>
+                <h6>Esta pagina web ha sido creada mientras amamantaba a dos criaturas</h6>
+                <h6>Todos los derechos reservados &copywww.mariolapedrazafullstack.com</h6>
+            </section>
+        </div>
     </footer>
+
 
 </body>
 
