@@ -15,10 +15,6 @@ header {
     display: none;
 }
 
-#btn-menu:checked~.menu {
-    margin: 0;
-}
-
 header label {
     display: block;
     width: 50px;
@@ -29,7 +25,11 @@ header label {
 
 header.wrapper label:hover {
     cursor: pointer;
-    background-color: rgba(199, 162, 162, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#btn-menu:checked~.menu {
+    margin: 0;
 }
 
 .menu {
@@ -37,6 +37,7 @@ header.wrapper label:hover {
     width: 70%;
     background-color: #7ef5c7;
     margin-left: -70%;
+    transition: all 0.5s;
 }
 
 .menu ul {
@@ -74,8 +75,8 @@ header.wrapper label:hover {
 
 main {
     background-color: whitesmoke;
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 20px;
 }
 
 #skills figure img {
@@ -97,10 +98,22 @@ footer {
     background: #7ef5c7;
 }
 
+.rrss ul {
+    display: flex;
+}
+
 .rrss ul li {
     list-style: none;
-    display: inline;
-    align-items: center;
+    flex-direction: row;
+}
+
+.legal {
+    display: flex;
+    flex-direction: row;
+}
+
+.legal p {
+    align-self: center;
 }
 
 
@@ -165,11 +178,29 @@ footer {
     }
     header label {
         display: none;
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+        border-right: 1px solid black;
+    }
+    .menu {
+        margin: 0;
+        position: relative;
+    }
+    .menu ul {
+        margin: 0;
+        list-style: none;
+        padding: 0;
+        display: flex;
+    }
+    .menu li a {
+        display: block;
+        padding: 20px;
     }
 }
 
 
-/* laptop */
+/* full screen */
 
 @media screen and (min-width: 961px) {
     .wrapper {
