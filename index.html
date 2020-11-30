@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
 </head>
 
 <body>
-
-
     <header>
         <div class="wrapper">
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu"><img src="./img/icons/imenu-50.png" alt="icono btn-menu"></label>
             <nav class="menu">
                 <ul>
                     <li>
@@ -30,63 +30,73 @@
         </div>
     </header>
     <main>
-        <div class="wrapper">
-            <article class="learn">
-                <h1>MARIOLA PEDRAZA</h1>
-                <h2>Programadora Front End</h2>
-                <p>Actualmente cursando bootcamp de Desarrollo Web FullStack en
-                    <a href="https://www.thebridge.tech/ ">The Bridge.</a>
-                </p>
-            </article>
-            <article id="skills">
-                <h3>SKILLS</h3>
-                <figure><img src="/img/icons/html.png" alt="html"></figure>
-                <figcaption>HTML</figcaption>
+        <main>
+            <div class="wrapper flex-container">
+                <article class="learn">
+                    <h1>MARIOLA PEDRAZA</h1>
+                    <h2>Programadora Front End</h2>
+                    <p>Actualmente cursando bootcamp de Desarrollo Web FullStack en
+                        <a href="https://www.thebridge.tech/ ">The Bridge.</a>
+                    </p>
+                </article>
+                <article id="skills">
+                    <h3>SKILLS</h3>
+                    <figure>
+                        <img src="./img/icons/html.png" alt="html">
+                        <figcaption>HTML</figcaption>
+                    </figure>
 
-                <figure><img src="/img/icons/css.png" alt="css"></figure>
-                <figcaption>CSS</figcaption>
+                    <figure>
+                        <img src="./img/icons/css.png" alt="css">
+                        <figcaption>CSS</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./img/icons/frontEnd.png" alt="frontend">
+                        <figcaption>FRONT END WEB PROGRAMING</figcaption>
+                    </figure>
 
-                <figure><img src="/img/icons/frontEnd.png" alt="frontend"></figure>
-                <figcaption>FRONT END WEB PROGRAMING</figcaption>
+                    <figure>
+                        <img src="./img/icons/js.png" alt="javascript">
+                        <figcaption>JAVASCRIPT</figcaption>
+                    </figure>
 
-                <figure><img src="/img/icons/js.png" alt="javascript"></figure>
-                <figcaption>JAVASCRIPT</figcaption>
+                    <figure><img src="./img/icons/webdevfundamentals.png" alt="web fundamentals">
+                        <figcaption>WEB FUNDAMENTLAS</figcaption>
+                    </figure>
 
-                <figure><img src="/img/icons/webdevfundamentals.png" alt="web fundamentals"></figure>
-                <figcaption>WEB FUNDAMENTLAS</figcaption>
-
-                <figure><img src="/img/icons/es6.png" alt="es6"></figure>
-                <figcaption>ES6</figcaption>
+                    <figure><img src="./img/icons/es6.png" alt="es6">
+                        <figcaption>ES6</figcaption>
+                    </figure>
 
 
-            </article>
-            <article id="lang_">
-                <h3>LENGUAJES DE PROGRAMACIÓN</h3>
-                <ul>
-                    <li><img src="/img/icons/html-5-50.png " alt=" "></li>
-                    <li><img src="/img/icons/css3-50.png " alt=" "></li>
-                    <li><img src="/img/icons/javascript-50.png " alt=" "></li>
-                    <li><img src="/img/icons/npm-50.png " alt=" "></li>
-                    <li><img src="/img/icons/nodejs-50.png " alt=" "></li>
-                </ul>
-            </article>
-        </div>
-    </main>
-    <footer>
-        <div class="wrapper">
+                </article>
+                <article id="lang_">
+                    <h3>LENGUAJES DE PROGRAMACIÓN</h3>
+                    <ul>
+                        <li><img src="./img/icons/html-5-50.png " alt=" "></li>
+                        <li><img src="./img/icons/css3-50.png " alt=" "></li>
+                        <li><img src="./img/icons/javascript-50.png " alt=" "></li>
+                        <li><img src="./img/icons/npm-50.png " alt=" "></li>
+                        <li><img src="./img/icons/nodejs-50.png " alt=" "></li>
+                    </ul>
+                </article>
+            </div>
+        </main>
+        <footer>
+
             <section class="rrss">
                 <ul>
                     <li>
-                        <a href="https://github.com/maripain" target="_blank"><img src="./img/icons/octocat-50-b.png" alt="github"></a>
+                        <a href="https://github.com/maripain" target="_blank"></a><img src="./img/icons/octocat-50-b.png" alt="github"></a>
                     </li>
                     <li>
                         <a href="https://www.linkedin.com/in/mariola-pedraza-8a981338/" target="_blank"><img src=" img/icons/linkedin-50-b.png " alt="linkedin "></a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/maripain " target="_blank"><img src="img/icons/twitter-50-b.png " alt="twitter "></a>
+                        <a href="https://twitter.com/maripain " target="_blank"><img src="./img/icons/twitter-50-b.png " alt="twitter "></a>
                     </li>
                     <li>
-                        <a href="https://instagram.com/maripain " target="_blank"><img src="img/icons/iinstagram-50-b.png" alt="instagram"></a>
+                        <a href="https://instagram.com/maripain " target="_blank"><img src="./img/icons/iinstagram-50-b.png" alt="instagram"></a>
                     </li>
                 </ul>
             </section>
@@ -95,11 +105,12 @@
                 <p>Politica de cookies</p>
 
 
+
                 <h6>Esta pagina web ha sido creada mientras amamantaba a dos criaturas</h6>
                 <h6>Todos los derechos reservados &copywww.mariolapedrazafullstack.com</h6>
             </section>
-        </div>
-    </footer>
+
+        </footer>
 </body>
 
 
